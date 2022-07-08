@@ -17,7 +17,7 @@
 
 
 ## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=mrluckyxd&repo=GEN-STRINGBOT&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=mrluckyxd&repo=LUCKY-MUSICX&theme=gray)
 
 
 <p align="center">
