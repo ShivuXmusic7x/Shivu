@@ -46,7 +46,7 @@
 </p>
 
 <p align="center">
-<a href="https://telegram.me/cute_boy701"><img src="https://img.shields.io/badge/%20Anonymous-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/cute_boy701"><img src="https://img.shields.io/badge/%20LUCKY-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <h3 align="center">
