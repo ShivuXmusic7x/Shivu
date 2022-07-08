@@ -15,6 +15,11 @@
 <a href="https://github.com/mrluckyxd/LUCKY-MUSICX/commits/AnonymousR1025"> <img src="https://img.shields.io/github/last-commit/AnonymousR1025/AnonXMusic?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
+
+## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=mrluckyxd&repo=GEN-STRINGBOT&theme=dark)
+
+
 <p align="center">
   <img src="https://telegra.ph/file/36be820a8775f0bfc773e.jpg">
 </p>
