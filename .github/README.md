@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/mrluckyxd/LUCKY-MUSICX/stargazers"><img src="https://img.shields.io/github/stars/AnonymousR1025/AnonXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/mrluckyxd/LUCKY-MUSICX/network/members"> <img src="https://img.shields.io/github/forks/AnonymousR1025/AnonXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/mrluckyxd/LUCKY-MUSICX/stargazers"><img src="https://img.shields.io/github/stars/mrluckyxd/LUCKY-MUSICX?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/mrluckyxd/LUCKY-MUSICX/network/members"> <img src="https://img.shields.io/github/forks/Mrluckyxd/LUCKY-MUSICX?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/mrluckyxd/LUCKY-MUSICX/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=yellow&label=pyrogram&logo=python&logoColor=green&style=for-the-badge" /></a>
