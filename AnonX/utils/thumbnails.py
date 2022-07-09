@@ -80,7 +80,7 @@ async def gen_thumb(videoid):
         y2 = Ycenter + 250
         logo = youtube.crop((x1, y1, x2, y2))
         logo.thumbnail((520, 520), Image.ANTIALIAS)
-        logo = ImageOps.expand(logo, border=15, fill="gray")
+        logo = ImageOps.expand(logo, border=15, fill="pink")
         background.paste(logo, (50, 100))
         draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("assets/font2.ttf", 40)
@@ -90,12 +90,12 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (5, 5), f"LUCKY MUSIC BOT", fill="gray", font=name_font
+            (5, 5), f"LUCKY MUSIC BOT", fill="white", font=name_font
         )
         draw.text(
             (600, 150),
             "LUCKY MUSICX",
-            fill="gray",
+            fill="white",
             stroke_width=2,
             stroke_fill="pink",
             font=font2,
@@ -106,7 +106,7 @@ async def gen_thumb(videoid):
                 draw.text(
                     (600, 340),
                     f"{line}",
-                    fill="gray",
+                    fill="white",
                     stroke_width=1,
                     stroke_fill="pink",
                     font=font,
@@ -116,7 +116,7 @@ async def gen_thumb(videoid):
                 draw.text(
                     (600, 280),
                     f"{line}",
-                    fill="gray",
+                    fill="white",
                     stroke_width=1,
                     stroke_fill="pink",
                     font=font,
