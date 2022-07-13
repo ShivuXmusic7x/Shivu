@@ -8,11 +8,11 @@ from pyrogram import filters
 load_dotenv()
 
 API_ID = int(getenv("API_ID", "8289355"))
-API_HASH = int(getenv("API_HASH", "55822f9d50c5b011177539545f760852"))
+API_HASH = getenv("API_HASH", "55822f9d50c5b011177539545f760852")
 
-BOT_TOKEN = int(getenv("BOT_TOKEN", "5445522355:AAEqOAsscS5CPLRLfKgi2psvkNgpRIZWhB4"))
+BOT_TOKEN = getenv("BOT_TOKEN", "5445522355:AAEqOAsscS5CPLRLfKgi2psvkNgpRIZWhB4")
 
-MONGO_DB_URI = int(getenv("MONGO_DB_URI", "mongodb+srv://Ziddiboy1762:ziddiboy1762@cluster0.yhk3i4m.mongodb.net/?retryWrites=true&w=majority"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ziddiboy1762:ziddiboy1762@cluster0.yhk3i4m.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "900")
@@ -22,9 +22,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001496597483"))
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1001496597483")
 
-MUSIC_BOT_NAME = int(getenv("MUSIC_BOT_NAME", "ꜱᴛᴜᴘɪᴅ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ꜱᴛᴜᴘɪᴅ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1960744931").split())
