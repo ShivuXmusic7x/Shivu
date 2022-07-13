@@ -7,8 +7,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "8289355"))
-API_HASH = getenv("API_HASH", "55822f9d50c5b011177539545f760852")
+API_ID = int(getenv("API_ID", "10577960"))
+API_HASH = getenv("API_HASH", "80fd047285f4e94ca80311928b6bb5da")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "5445522355:AAEqOAsscS5CPLRLfKgi2psvkNgpRIZWhB4")
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQCxXbQ1C3D5AAqSinU-UNMjZRAuZ7kQu-ev7JOlqPbja1AikrDm2HERwr-fvImJSv9RrbUKvnUJfdS4cKSvzMTOAKlSUfcrodj70z9Xtg3Hr73RlGblz439attjY3C1-H9Ugw1m80_5doUV45BaMuUb-Lvxmirxu2llEUyeBj6nWXETwBJtNaIV5CZf1ouDDqwFqoGOpeHcZbAHmgibCqQppMIu6YMlGIg9d9ibx8EgEAO8GsTliM1UvIJkXI4uPrIWlfZxE9_HnpuMUaEyq9wa90gVLQ9rg5_yvfLl33UKQnvD4rsB-r9Ve2HoZaPlzkxrS-tE-r4Q0w49e0kOHxGIdPwE_gA")
+STRING1 = getenv("STRING_SESSION", "AQAevY29Ey4syf8GPG9rNRosmu9d69v87t64vYVBzWD1zk1I-fPxNzfOqsx-aCn1gfetqofiD7lhRIfS9hST9L9neyILOXFrQU2jZxYoeKwdA6_uIvVifyTUjo5BpdoJdwEq9YvbdhEjhDxKnS2jIVY4IeLQOWxiS523XGMxP7CtNJFO6NeyyTBsTtvjK_qNRgaEyOnTDCDJx0jJTHt_RmJGiOBPQDPsV40D1tjQJ1QXyWRVH2WyMwnCpyIQrZ6rnu9mQbUJD72BhOik6V2DsXDjkcO1J7d93YWrlwhLshqYTf3KtErOvXYioJbWjw_8n1wJYwORXxZDL_nBh7ji4vGeAAAAAU1mh7gA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
