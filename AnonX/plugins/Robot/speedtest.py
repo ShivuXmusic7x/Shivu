@@ -1,13 +1,9 @@
 import asyncio
-import os
-
 import speedtest
-import wget
 from pyrogram import filters
-
 from strings import get_command
-from AnonX import app
-from AnonX.misc import SUDOERS
+from YukkiMusic import app
+from YukkiMusic.misc import SUDOERS
 
 # Commands
 SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
@@ -17,38 +13,38 @@ def testspeed(m):
     try:
         test = speedtest.Speedtest()
         test.get_best_server()
-        m = m.edit("🙄 ᴄʜᴇᴄᴋɪɴɢ ᴅᴏᴡɴʟᴏᴀᴅ sᴩᴇᴇᴅ...")
+        m = m.edit("😋 ʀᴜɴɴɪɴɢ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴘᴇᴇᴅᴛᴇꜱᴛ")
         test.download()
-        m = m.edit("🙄 ᴄʜᴇᴄᴋɪɴɢ ᴜᴩʟᴏᴀᴅ sᴩᴇᴇᴅ...")
+        m = m.edit("😴 ʀᴜɴɴɪɴɢ ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴘᴇᴇᴅᴛᴇꜱᴛ")
         test.upload()
         test.results.share()
         result = test.results.dict()
-        m = m.edit("😴 ᴜᴩʟᴏᴀᴅɪɴɢ sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs...")
-        path = wget.download(result["share"])
+        m = m.edit("🍑 ꜱʜᴀʀɪɴɢ ꜱᴘᴇᴇᴅᴛᴇꜱᴛ ʀᴇꜱᴜʟᴛꜱ")
     except Exception as e:
         return m.edit(e)
-    return result, path
+    return result
 
 
 @app.on_message(filters.command(SPEEDTEST_COMMAND) & SUDOERS)
 async def speedtest_function(client, message):
-    m = await message.reply_text("💫 ᴛʀʏɪɴɢ ᴛᴏ ᴄʜᴇᴄᴋ ᴜᴩʟᴏᴀᴅ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ sᴩᴇᴇᴅ...")
+    m = await message.reply_text("Running Speed test")
     loop = asyncio.get_event_loop()
-    result, path = await loop.run_in_executor(None, testspeed, m)
-    output = f"""**sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs**
+    result = await loop.run_in_executor(None, testspeed, m)
+    output = f"""**Speedtest Results**
     
-<u>**ᴄʟɪᴇɴᴛ:**</u>
-**__ɪsᴩ:__** {result['client']['isp']}
-**__ᴄᴏᴜɴᴛʀʏ:__** {result['client']['country']}
+<u>**Client:**</u>
+**__ISP:__** {result['client']['isp']}
+**__Country:__** {result['client']['country']}
   
-<u>**sᴇʀᴠᴇʀ:**</u>
+<u>**Server:**</u>
 **__ɴᴀᴍᴇ:__** {result['server']['name']}
 **__ᴄᴏᴜɴᴛʀʏ:__** {result['server']['country']}, {result['server']['cc']}
-**__sᴩᴏɴsᴏʀ:__** {result['server']['sponsor']}
+**__ꜱᴘᴏɴꜱᴏʀ:__** {result['server']['sponsor']}
 **__ʟᴀᴛᴇɴᴄʏ:__** {result['server']['latency']}  
-**__ᴩɪɴɢ:__** {result['ping']}"""
+**__ᴘɪɴɢ:__** {result['ping']}"""
     msg = await app.send_photo(
-        chat_id=message.chat.id, photo=path, caption=output
+        chat_id=message.chat.id, 
+        photo=result["share"], 
+        caption=output
     )
-    os.remove(path)
     await m.delete()
