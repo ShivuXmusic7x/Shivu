@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/c3d745fe632ed0a918719.jpg">
+  <img src="https://telegra.ph/file/8ac73da2a18aef2db211d.jpg">
 </p>
 
 <p align="center">
@@ -54,12 +54,12 @@
 </h3>
 
 <p align="center">
-<a href="https://github.com/pyrogram/pyrogram"> <img src="https://img.shields.io/badge/Pyrogram-black?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
-<a href="https://github.com/pytgcalls/pytgcalls"> <img src="https://img.shields.io/badge/PyTgCalls-black?style=for-the-badge&logo=github" alt="Pytgcalls" /> </a>
-<a href="https://github.com/Callsmusic"> <img src="https://img.shields.io/badge/CallsMusic-black?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
-<a href="https://github.com/AnonymousR1025"> <img src="https://img.shields.io/badge/Anonymous-black?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
-<a href="https://github.com/NotReallyShikhar"> <img src="https://img.shields.io/badge/Shikhar-black?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
-<a href="https://github.com/TheHamkerCat"> <img src="https://img.shields.io/badge/TheHamkerCat-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
+<a href="https://github.com/pyrogram/pyrogram"> <img src="https://img.shields.io/badge/Pyrogram-pink?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
+<a href="https://github.com/pytgcalls/pytgcalls"> <img src="https://img.shields.io/badge/PyTgCalls-pink?style=for-the-badge&logo=github" alt="Pytgcalls" /> </a>
+<a href="https://github.com/Callsmusic"> <img src="https://img.shields.io/badge/CallsMusic-pink?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
+<a href="https://github.com/AnonymousR1025"> <img src="https://img.shields.io/badge/Anonymous-pink?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
+<a href="https://github.com/NotReallyShikhar"> <img src="https://img.shields.io/badge/Shikhar-pink?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
+<a href="https://github.com/TheHamkerCat"> <img src="https://img.shields.io/badge/TheHamkerCat-pink?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
 </p>
 
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
