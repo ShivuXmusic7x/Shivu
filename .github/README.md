@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/mrluckyxd/LUCKY-MUSICX/stargazers"><img src="https://img.shields.io/github/stars/mrluckyxd/LUCKY-MUSICX?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/mrluckyxd/LUCKY-MUSICX/stargazers"><img src="https://img.shields.io/github/stars/mrluckyxd/LUCKY-MUSICX?color=pink&logo=github&logoColor=pink&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/mrluckyxd/LUCKY-MUSICX/network/members"> <img src="https://img.shields.io/github/forks/Mrluckyxd/LUCKY-MUSICX?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/mrluckyxd/LUCKY-MUSICX/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
