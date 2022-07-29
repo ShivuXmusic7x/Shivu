@@ -215,8 +215,8 @@ async def add_playlist(client, CallbackQuery, _):
     await save_playlist(user_id, videoid, plist)
     try:
         title = (title[:30]).title()
-        return await CallbackQuery.answer(
-            _["playlist_10"].format(title), show_alert=True
+        return await CallbackQuery.message.reply_text(
+            _["playlist_10"].format(title),
         )
     except:
         return
