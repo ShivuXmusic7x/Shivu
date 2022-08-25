@@ -1,6 +1,6 @@
 # Bot Commands
 PING_COMMAND : ["ping", "p"]
-START_COMMAND : ["mstart", "mstart"]
+START_COMMAND : ["start", "mstart"]
 HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
