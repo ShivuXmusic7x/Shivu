@@ -1,6 +1,6 @@
 <h2 align="centre">---- ʟᴜᴄᴋʏ ✘ ᴍᴜꜱɪᴄx ---- </h2>
 
-### ʙʟɪɴᴋ ᴍᴜsɪᴄ+sᴘᴀᴍ ʙᴏᴛ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄx ʙᴏᴛ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
 <p align="center"><a href="https://t.me/TEACH_TEAMOP"><img src="https://telegra.ph/file/0d558925376340014d7db.jpg" width="300"></a></p>
 <p align="center">
@@ -20,7 +20,7 @@
 </details>
 <pre>
 <b><i>••ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ••</i></b>
-<p><a href="https://heroku.com/deploy?template=https://github.com/mrluckyxd/BLINK-MUSICS"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-pink?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/mrluckyxd/LUCKY-MUSICX"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-pink?style=for-the-badge&logo=heroku" width="200""/></a></p>
 </pre>
 
 ## ᴡᴏʀᴋꜰʟᴏᴡꜱ
@@ -42,7 +42,7 @@ build logs!</i>
 </i>ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 
 ᴛᴏ ᴅᴇᴘʟᴏʏ ᴏɴ ᴏᴋᴛᴇᴛᴏ!</i>
 
-<p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/mrluckyxd/BLINK-MUSICS"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ%20ᴛᴏ%20ᴏᴋᴛᴇᴛᴏ-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
+<p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/mrluckyxd/LUCKY-MUSICX"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ%20ᴛᴏ%20ᴏᴋᴛᴇᴛᴏ-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
 </pre>
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
@@ -51,10 +51,10 @@ build logs!</i>
 ɴᴇᴄᴄᴇꜱꜱᴏʀʏ ᴠᴀʀɪᴇʙʟᴇꜱ ʜᴇʀᴇ 
 ᴜ ʜᴀᴠᴇ ᴛᴏ ꜰɪʟʟ.</i>
 
-<p align="center"><a href="https://railway.app/new/template?template=https://github.com/MRLUCKYXD/BLINK-MUSICS&envs=SESSION_NAME,BOT_TOKEN,GROUP_SUPPORT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT"> <img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ%20ᴛᴏ%20ʀᴀɪʟᴡᴀʏ-pink?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://railway.app/new/template?template=https://github.com/MRLUCKYXD/LUCKY-MUSICX&envs=SESSION_NAME,BOT_TOKEN,GROUP_SUPPORT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT"> <img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ%20ᴛᴏ%20ʀᴀɪʟᴡᴀʏ-pink?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
 </pre>
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ
-<a href="https://telegram.me/terayaarhoomai"><img src="https://img.shields.io/badge/Join-Group%20Support-pink.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://telegram.me/oye_golgappu"><img src="https://img.shields.io/badge/Join-Updates%20Channel-pink.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/lobe_ju"><img src="https://img.shields.io/badge/Join-Group%20Support-pink.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://telegram.me/oye_golgappu"><img src="https://img.shields.io/badge/Join-Updates%20Channel-pink.svg?style=for-the-badge&logo=Telegram"></a>
 
 
