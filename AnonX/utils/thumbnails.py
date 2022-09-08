@@ -85,7 +85,7 @@ async def gen_thumb(videoid):
             image2 = image1.convert("RGBA")
             background = image2.filter(filter=ImageFilter.BoxBlur(25))
             enhancer = ImageEnhance.Brightness(background)
-            background = enhancer.enhance(0.4)
+            background = enhancer.enhance(0.7)
             image2 = background
                                                                                             
             circle = Image.open("assets/Circle.png")
@@ -128,7 +128,7 @@ async def gen_thumb(videoid):
             image4.text((670, 500), text=duration, fill="white", font = font4, align ="left") 
             image4.text((670, 550), text=channel, fill="white", font = font4, align ="left")
             
-            image2 = ImageOps.expand(image2,border=28,fill="grey")
+            image2 = ImageOps.expand(image2,border=28,fill=make_col())
             image2 = image2.convert('RGB')
             image2.save(f"cache/{videoid}.jpg")
             file = f"cache/{videoid}.jpg"
