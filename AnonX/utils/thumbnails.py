@@ -111,7 +111,7 @@ async def gen_thumb(videoid):
             font4 = ImageFont.truetype('assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((18, 18), "LUCKY MUSICS", fill="white", font = font1, align ="right") 
+            image4.text((15, 15), "LUCKY MUSICS", fill="white", font = font1, align ="right") 
             image4.text((665, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
@@ -128,7 +128,7 @@ async def gen_thumb(videoid):
             image4.text((670, 500), text=duration, fill="white", font = font4, align ="left") 
             image4.text((670, 550), text=channel, fill="white", font = font4, align ="left")
             
-            image2 = ImageOps.expand(image2,border=28,fill=make_col())
+            image2 = ImageOps.expand(image2,border=20,fill=make_col())
             image2 = image2.convert('RGB')
             image2.save(f"cache/{videoid}.jpg")
             file = f"cache/{videoid}.jpg"
