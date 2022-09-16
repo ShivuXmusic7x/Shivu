@@ -1,6 +1,5 @@
 <h2 align="centre">---- ʟᴜᴄᴋʏ ✘ ᴍᴜꜱɪᴄx ---- </h2>
 
-### </i>**ʟᴜᴄᴋʏ ᴍᴜꜱɪᴄx ʙᴏᴛ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...**</i>
 
 <p align="center"><a href="https://t.me/LOBE_JU"><img src="https://telegra.ph/file/a5fa69ce452590eb3c771.jpg" width="300"></a></p>
 <p align="center">
