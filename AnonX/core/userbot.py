@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("DevilsHeavenMF")
-                await self.one.join_chat("Akhand_Words")
+                await self.one.join_chat("OYE_GOLGAPPU")
+                await self.one.join_chat("LOBE_JU")
             except:
                 pass
             assistants.append(1)
@@ -78,8 +78,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("DevilsHeavenMF")
-                await self.two.join_chat("Akhand_Words")
+                await self.two.join_chat("LOBE_JU")
+                await self.two.join_chat("OYE_GOLGAPPU")
             except:
                 pass
             assistants.append(2)
@@ -108,8 +108,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("DevilsHeavenMF")
-                await self.three.join_chat("Akhand_Words")
+                await self.three.join_chat("LOBE_JU")
+                await self.three.join_chat("OYE_GOLGAPPU")
             except:
                 pass
             assistants.append(3)
@@ -138,8 +138,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("DevilsHeavenMF")
-                await self.four.join_chat("Akhand_Words")
+                await self.four.join_chat("LOBE_JU")
+                await self.four.join_chat("OYE_GOLGAPPU")
             except:
                 pass
             assistants.append(4)
@@ -168,8 +168,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("DevilsHeavenMF")
-                await self.five.join_chat("Akhand_Words")
+                await self.five.join_chat("OYE_GOLGAPPU")
+                await self.five.join_chat("LOBE_JU")
             except:
                 pass
             assistants.append(5)
