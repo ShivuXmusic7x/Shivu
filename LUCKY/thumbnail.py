@@ -81,9 +81,9 @@ async def generate_thumb(videoid,bot_name):
             youtube = Image.open(f"cache/thumb{videoid}.jpg")
             image1 = changeImageSize(1280, 720, youtube)
             image2 = image1.convert("RGBA")
-            background = image2.filter(filter=ImageFilter.BoxBlur(30))
+            background = image2.filter(filter=ImageFilter.BoxBlur(25))
             enhancer = ImageEnhance.Brightness(background)
-            background = enhancer.enhance(0.6)
+            background = enhancer.enhance(0.7)
             image2 = background
                                                                                             
             circle = Image.open("assets/circle.png")
@@ -126,7 +126,7 @@ async def generate_thumb(videoid,bot_name):
             image4.text((670, 500), text=duration, fill="white", font = font4, align ="left") 
             image4.text((670, 550), text=channel, fill="white", font = font4, align ="left")
             
-            image2 = ImageOps.expand(image2,border=20,fill=make_col())
+            image2 = ImageOps.expand(image2,border=20,fill="grey")
             image2 = image2.convert('RGB')
             image2.save(f"cache/{videoid}.jpg")
             file = f"cache/{videoid}.jpg"
