@@ -66,11 +66,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"{config.SUPPORT_GROUP}"
             )
         ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
-        ],
     ]
     return buttons
 
