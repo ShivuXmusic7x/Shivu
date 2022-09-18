@@ -62,7 +62,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✭   ᴄʟᴏꜱᴇ   ✭", callback_data="close"
+                text="✯ ᴄʟᴏꜱᴇ ✯", callback_data="close"
             )
         ],
     ]
@@ -321,8 +321,6 @@ def panel_markup_1(_, videoid, chat_id):
     ]
     return buttons
 
-## LUCKY QUEUE MARKUP
-
 
 def queue_markup(_, videoid, chat_id):
     buttons = [
@@ -342,3 +340,4 @@ def queue_markup(_, videoid, chat_id):
             ),
         ],
      ]
+     return buttons
