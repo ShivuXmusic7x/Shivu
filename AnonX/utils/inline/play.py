@@ -28,17 +28,17 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     x, y = str(round(played_sec/total_sec,1)).split(".")
     pos = int(y)
 
-    line = "▬"
-    circle = "▭"
+    line = "—"
+    circle = "❀"
 
     bar = line*(pos-1)
     bar += circle
-    bar += circle*(9-len(bar))
+    bar += line*(11-len(bar))
 
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} ▬{bar} {dur}",
+                text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
         ],
