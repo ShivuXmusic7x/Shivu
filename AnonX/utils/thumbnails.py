@@ -2,8 +2,11 @@ import os
 import aiohttp
 import aiofiles
 from LUCKY.thumbnail import generate_thumb
-
+from LUCKY.thumbnail2 import generate_thumb
 from config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 async def gen_thumb(videoid):
+    return await generate_thumb(videoid,MUSIC_BOT_NAME)
+
+async def gen_thumb2(videoid):
     return await generate_thumb(videoid,MUSIC_BOT_NAME)
