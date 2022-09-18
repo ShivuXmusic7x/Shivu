@@ -110,7 +110,7 @@ async def stream(
                     original_chat_id,
                     photo=img,
                     caption=_["stream_1"].format(
-                        title[:30], duration_min, user_name
+                        title[:10], duration_min, user_name
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
@@ -190,7 +190,7 @@ async def stream(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
-                    title[:30], duration_min, user_name
+                    title[:10], duration_min, user_name
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
