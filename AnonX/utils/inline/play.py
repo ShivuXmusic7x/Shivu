@@ -29,19 +29,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     pos = int(y)
 
     line = "—"
-    circle = "❀"
+    circle = "◉"
 
     bar = line*(pos-1)
     bar += circle
     bar += line*(11-len(bar))
 
     buttons = [
-        [
-            InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-            )
-        ],
         [
             InlineKeyboardButton(
                 text="▷",
@@ -64,6 +58,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"{config.SUPPORT_GROUP}"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="✭   ᴄʟᴏꜱᴇ   ✭", callback_data="close"
             )
         ],
     ]
