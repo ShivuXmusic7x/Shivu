@@ -160,6 +160,7 @@ async def stream(
                 "video" if video else "audio",
             )
             img = await gen_thumb(vidid)
+            button = stream_markup(_, vidid, chat_id)
             position = len(db.get(chat_id)) - 1
             await app.send_photo(
                 original_chat_id,
@@ -167,7 +168,7 @@ async def stream(
                 caption=_["queue_4"].format(
                     position, title[:20], duration_min, user_name
                 ),
-                reply_markup=InlineKeyboardMarkup(button)
+                reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
@@ -216,6 +217,7 @@ async def stream(
                 "audio",
             )
             img = await gen_thumb(vidid)
+            button = stream_markup(_, vidid, chat_id)
             position = len(db.get(chat_id)) - 1
             run = await app.send_photo(
                 original_chat_id,
@@ -223,7 +225,7 @@ async def stream(
                 caption=_["queue_4"].format(
                     position, title[:20], duration_min, user_name
                 ),
-                reply_markup=InlineKeyboardMarkup(button)
+                reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
