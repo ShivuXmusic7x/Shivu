@@ -9,4 +9,4 @@ async def gen_thumb(videoid):
     return await generate_thumb(videoid,MUSIC_BOT_NAME)
 
 async def gen_thumb2(videoid):
-    return await generate_thumb(videoid,MUSIC_BOT_NAME)
+    return await generate_thumb2(videoid,MUSIC_BOT_NAME)
