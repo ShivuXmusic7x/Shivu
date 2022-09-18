@@ -110,7 +110,7 @@ async def stream(
                     original_chat_id,
                     photo=img,
                     caption=_["stream_1"].format(
-                        title[:10], duration_min, user_name
+                        title[:20], duration_min, user_name
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
@@ -163,7 +163,7 @@ async def stream(
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
-                    position, title[:30], duration_min, user_name
+                    position, title[:20], duration_min, user_name
                 ),
             )
         else:
@@ -190,7 +190,7 @@ async def stream(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
-                    title[:10], duration_min, user_name
+                    title[:20], duration_min, user_name
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
@@ -216,7 +216,7 @@ async def stream(
             await app.send_message(
                 original_chat_id,
                 _["queue_4"].format(
-                    position, title[:30], duration_min, user_name
+                    position, title[:20], duration_min, user_name
                 ),
             )
         else:
