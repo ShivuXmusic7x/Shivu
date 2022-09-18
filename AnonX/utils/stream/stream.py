@@ -213,9 +213,10 @@ async def stream(
                 "audio",
             )
             position = len(db.get(chat_id)) - 1
-            await app.send_message(
+            await app.send_photo(
                 original_chat_id,
-                _["queue_4"].format(
+                photo=img,
+                caption=_["queue_4"].format(
                     position, title[:20], duration_min, user_name
                 ),
             )
