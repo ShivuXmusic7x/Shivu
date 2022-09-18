@@ -18,7 +18,7 @@ from AnonX.utils.inline.play import (stream_markup,
 from AnonX.utils.inline.playlist import close_markup
 from AnonX.utils.pastebin import Anonbin
 from AnonX.utils.stream.queue import put_queue, put_queue_index
-from AnonX.utils.thumbnails import gen_thumb, gen_thumb2
+from AnonX.utils.thumbnails import gen_thumb
 
 
 async def stream(
@@ -159,7 +159,7 @@ async def stream(
                 user_id,
                 "video" if video else "audio",
             )
-            img = await gen_thumb2(vidid)
+            img = await gen_thumb(vidid)
             position = len(db.get(chat_id)) - 1
             await app.send_photo(
                 original_chat_id,
@@ -215,7 +215,7 @@ async def stream(
                 user_id,
                 "audio",
             )
-            img = await gen_thumb2(vidid)
+            img = await gen_thumb(vidid)
             position = len(db.get(chat_id)) - 1
             run = await app.send_photo(
                 original_chat_id,
