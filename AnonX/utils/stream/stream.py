@@ -14,8 +14,7 @@ from AnonX.utils.database import (add_active_chat,
                                        is_video_allowed, music_on)
 from AnonX.utils.exceptions import AssistantErr
 from AnonX.utils.inline.play import (stream_markup,
-                                          telegram_markup,
-                                          queue_markup)
+                                          telegram_markup)
 from AnonX.utils.inline.playlist import close_markup
 from AnonX.utils.pastebin import Anonbin
 from AnonX.utils.stream.queue import put_queue, put_queue_index
@@ -160,7 +159,7 @@ async def stream(
                 "video" if video else "audio",
             )
             img = await gen_thumbb(vidid)
-            button = queue_markup(_, vidid, chat_id)
+            button = stream_markup(_, vidid, chat_id)
             position = len(db.get(chat_id)) - 1
             await app.send_photo(
                 original_chat_id,
@@ -217,7 +216,7 @@ async def stream(
                 "audio",
             )
             img = await gen_thumbb(vidid)
-            button = queue_markup(_, vidid, chat_id)
+            button = stream_markup(_, vidid, chat_id)
             position = len(db.get(chat_id)) - 1
             run = await app.send_photo(
                 original_chat_id,
