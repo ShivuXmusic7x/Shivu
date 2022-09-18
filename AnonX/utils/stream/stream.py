@@ -159,7 +159,7 @@ async def stream(
                 user_id,
                 "video" if video else "audio",
             )
-            img = await gen_thumb(vidid)
+            img = await gen_thumb2(vidid)
             position = len(db.get(chat_id)) - 1
             await app.send_photo(
                 original_chat_id,
@@ -215,7 +215,7 @@ async def stream(
                 user_id,
                 "audio",
             )
-            img = await gen_thumb(vidid)
+            img = await gen_thumb2(vidid)
             position = len(db.get(chat_id)) - 1
             run = await app.send_photo(
                 original_chat_id,
