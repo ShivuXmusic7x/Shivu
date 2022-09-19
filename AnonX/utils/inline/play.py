@@ -146,11 +146,8 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛥ ꜱᴜᴘᴘᴏʀᴛ ⛥",
-                url=f"{config.SUPPORT_GROUP}",
-            ),
-            InlineKeyboardButton(
-                text="⛥ ᴄʟᴏꜱᴇ ⛥", callback_data="close"
+                text="➕ ᴀᴅᴅ ᴛᴏ ᴘʟᴀʏʟɪꜱᴛ ʙᴀʙʏ ➕",
+                callback_data=f"add_playlist {videoid}",
             )
         ],
     ]
