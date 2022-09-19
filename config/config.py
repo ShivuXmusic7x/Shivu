@@ -10,9 +10,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "10577960"))
 API_HASH = getenv("API_HASH", "80fd047285f4e94ca80311928b6bb5da")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5272923992:AAEoqxqcAVGd-5C4ryh1xL76vGwDS172t8g")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AsadAli:AsadAli@cluster0.3ejv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "900")
@@ -22,9 +22,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001554007729"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ꜱᴛᴜᴘɪᴅ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ɴᴀɪɴᴀ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1962673406").split())
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/LUCKYXD12/RamdiMusic",
+    "https://github.com/NAINA-XD/NAINA-MUSICX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/MRLUCKYXD/LUCKY-MUSICX")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NAINA-XD/NAINA-MUSICX")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQBFXFPGuNLFPK6S1IkgMEtj7LCjXwqx5SJHkPBKyc3F4h5FFwAZx2boZmWSjyBX6XuygeE-dRS0d66ABXHHa7II40BoEpxPHNRALxhFUD_MW1mNZ-lR7LuFmy5C0Icz0q5Gdz2ZMlBP7GkAmheRrgRYwmsTMb9ebV0oPBv28hHoB7p7bWI3kUueaa4UzHhVKNFzDpKw-mHUpFHgQr8weQCprw6gwXAhYCvkk8jRCWqttXPZ872pROjb11hYnGKuUQCeqlVC6VYig0vRlSs4gOSKonKKBA4xn8iAEtO6YxEi5txcMQTn8dxQT6W59j-tDUQVrrHIVJugufchznuC-NuPAAAAATpvw4IA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
