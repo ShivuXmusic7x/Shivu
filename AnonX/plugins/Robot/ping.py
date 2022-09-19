@@ -26,6 +26,7 @@ async def ping_com(client, message: Message, _):
         photo=PING_IMG_URL,
         caption=_["ping_1"],
     )
+    button = close_markup(_, videoid, user_id, mode, channel, fplay)
     start = datetime.now()
     pytgping = await Anon.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
@@ -33,5 +34,6 @@ async def ping_com(client, message: Message, _):
     await response.edit_text(
         _["ping_2"].format(
             resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
-        )
+        ),
+        reply_markup=InlineKeyboardMarkup(button),
     )
