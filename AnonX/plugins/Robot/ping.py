@@ -16,6 +16,7 @@ PING_COMMAND = get_command("PING_COMMAND")
 
 @app.on_message(
     filters.command(PING_COMMAND)
+    & filters.private
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
