@@ -124,21 +124,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
     return buttons
 
 
-## Ping 
-
-
-def close_markup(_, videoid, user_id, mode, channel, fplay):
-    buttons = [
-        [
-            InlineKeyboardButton(
-                text="✯ ᴄʟᴏꜱᴇ ✯",
-                callback_data=f"forceclose {videoid}|{user_id}",
-            ),
-        ]
-    ]
-    return buttons
-
-
 ## Inline without Timer Bar
 
 
