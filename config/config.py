@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "10577960"))
-API_HASH = getenv("API_HASH", "80fd047285f4e94ca80311928b6bb5da")
+API_ID = int(getenv("API_ID", "15462970"))
+API_HASH = getenv("API_HASH", "818af3b1235f9d87c53fd54e540c886f")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5791501037:AAF1ph5TMIx5GI3D-0C0jGP9iNnou4hsMw0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ziddiboy1762:ziddiboy1762@cluster0.yhk3i4m.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "900")
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001466357800"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ɴᴀɪɴᴀ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ꜱʜɪᴠᴜ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1962673406").split())
+    map(int, getenv("OWNER_ID", "1930739461").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -40,12 +40,12 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", "")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/OYE_GOLGAPPU")
+    "SUPPORT_CHANNEL", "https://t.me/"techSquad7x")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/LOBE_JU")
+    "SUPPORT_GROUP", "https://t.me"Fake_feelings7x")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQAdszUhiMtKxX0vdhO53mfKaQFGleIole0t-w_p-f9xm5cexzXWDlXSLO2Pr1cJGtESJwOseJT1fLqUG7kX62JSaZPy62wjWqtYqUMjQUqGR8CPnMIs3FhbTOx3NCx7uNF0yr8IPhourqaJZdetNDzJQHLr_5IlKZ_29u-HhPMLtTS5EleXvWLjdsmXbUJ9Es9dNTcBa2Rd4VOV9WCk_QoV-hAK4uTWp9Ku2Ot3UdLxcAWbkL-v2U5hm2lIJy6z0gHQlrcCh4NkyFAwymbPLsDU5fOazdSh5FP3aRSrW1uIgSiA12C9d4bDd8h4L8MPWdno1pe5rekjdyxGuFsCr3TVAAAAAVitN1wA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a5fa69ce452590eb3c771.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/8183cb3c7ea513300e6d9.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/a5fa69ce452590eb3c771.jpg",
+    "https://te.legra.ph/file/8183cb3c7ea513300e6d9.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -266,5 +266,5 @@ if TELEGRAM_VIDEO_URL:
 
 if not MUSIC_BOT_NAME.isascii():
     print(
-        "[KYA RE LAVDE] - BOHOT FONT LAGANE KA SHAUKH HAI. JAA PHIR LUCKY KO APNI CHUMT DEKE AA"
+        "[CONTACT MOII OWNER] - BOHOT ACHHE "
     )
